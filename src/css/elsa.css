@@ -1,0 +1,326 @@
+body {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial;
+}
+
+.users {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+strong, h1, h2, h3, footer {
+    color: #E06F8B;
+}
+
+footer p {
+    margin-top: 8px;
+    font-size: small;
+    font-weight: bolder;
+    text-align: center;
+    font-family: Arial;
+}
+
+.number, .playbuttons {
+    margin: 1rem 5%;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 8px;
+    width: 250px;
+    height: 50px;
+    background-color: #E06F8B;
+    color: black;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center
+}
+
+.playbuttons, .active {
+    margin: 1rem 5%;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    background-color: #E06F8B;
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center
+}
+
+input{
+    border-radius: 8px;
+    width: 250px;
+}
+
+.play {
+    align-items: center;
+}
+
+.table{
+    width: 100%;
+}
+
+.teachersview td, .teachersview th, .users td, .users th, .missions td, .missions th, .ownpage th, .ownpage td, .newbundle td, .newbundle th {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: left;
+    color: black;
+}
+
+.teachersview tr:nth-child(odd), .users tr:nth-child(odd), .missions tr:nth-child(odd), .ownpage tr:nth-child(odd), .newbundle tr:nth-child(odd) {
+    background-color: #f5d3dc;
+    color: black;
+    padding: 5px;
+}
+
+.teachersview tr:hover, .users tr:hover, .missions tr:hover, .ownpage tr:hover, .newbundle tr:hover {
+    background-color: #E06F8B;
+    color: white;
+}
+
+.teachersview th, .users th, .missions th, .ownpage th, .newbundle th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: black;
+    background-color: #E06F8B;
+}
+
+.container {
+    background-color: #E06F8B !important;
+    align-content: center;
+    text-align: center;
+    /*position: relative;*/
+    width: 100%;
+    color: #000 !important;
+}
+
+.girl .image .img .books .teacher .joystick .login .logout {
+    width: auto;
+    height: auto;
+    alignment: center;
+    display: block;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 25px;
+}
+
+.nav > li > a > img {
+    alignment: center;
+    vertical-align: top;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.image2 {
+    display: inline-block;
+    width:  75px;
+    height: 75px;
+    margin-left: 10px;
+}
+
+.span2 {
+    margin-left: 10px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+}
+
+.container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.text {
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.textarea, p {
+    width: 100%;
+}
+
+.navbar-nav{
+    float: inside;
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.navbar-inverse {
+    display: inline-block;
+    background-color: #E06F8B;
+    border-color: #E06F8B;
+}
+.navbar-inverse .navbar-brand {
+    color: #000000;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-text {
+    color: #000000;
+}
+.navbar-inverse .navbar-nav > li > a {
+    alignment: center;
+    color: #000000;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #E06F8B;
+}
+.navbar-inverse .navbar-nav > .disabled > a,
+.navbar-inverse .navbar-nav > .disabled > a:hover,
+.navbar-inverse .navbar-nav > .disabled > a:focus {
+    color: #444;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #E06F8B;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    alignment: center;
+    border-color: #101010;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #E06F8B;
+}
+@media (max-width: 750px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
+        alignment: center;
+        border-color: #080808;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+        background-color: #E06F8B;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        alignment: center;
+        color: #000000;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+        alignment: center;
+        color: #fff;
+        background-color: transparent;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+        alignment: center;
+        color: #fff;
+        background-color: #E06F8B;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        alignment: center;
+        color: #444;
+        background-color: transparent;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        display: inline-block;
+        margin: 0;
+    }
+    .navbar-nav > li {
+        float: left;
+    }
+    .navbar-nav > li > a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+.navbar-inverse .navbar-link {
+    alignment: center;
+    color: #000000;
+}
+.navbar-inverse .navbar-link:hover {
+    color: #fff;
+}
+.navbar-inverse .btn-link {
+    color: #000000;
+}
+.navbar-inverse .btn-link:hover,
+.navbar-inverse .btn-link:focus {
+    color: #fff;
+}
+.navbar-inverse .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-inverse .btn-link:hover,
+.navbar-inverse .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-inverse .btn-link:focus {
+    color: #444;
+}
+
+/*.col-sm-2.sidenav {*/
+    /*position: relative;*/
+    /*width: 150px;*/
+    /*height: 150px;*/
+/*}*/
+
+.backgroundcarousel {
+    width: auto;
+    height: 100px;
+}
+
+.row-content{
+    width: 100%;
+}
+
+.col-sm-8 {
+    position: center;
+    width: 100%;
+}
+
+.backstories {
+    text-align: left;
+}

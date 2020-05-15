@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+table {width: 90%;margin: 1em auto;}
+table thead {font-weight: bold;}
+
+.jumbotron{
+  background-color: #E06F8B;
+}
+
+.game {
+  display: inline-flex; flex-direction: column;
+  align-items: center; width: 100%;
+}
+
+.target {
+  border: thin solid #E06F8B; width: 40%; height: 75px;
+  font-size: 45px; text-align: center; display: inline-block;
+  background-color: #E06F8B; border-radius: 20px;
+}
+
+.challenge-numbers {
+  width: 85%; margin: 1rem auto;
+}
+
+.play {
+  display: flex; width: 90%; justify-content: space-between;
+}
+
+.timer-value {
+  color: #6f8be0;
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+}
+.App-page {
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+}
+a {
+    alignment: center;
+    color: #6f8be0;
+}
+
+.academy{
+    color: #00772a;
+}
